@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopper</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>danh sach san pham</h1>
+        <ul class="tab">
+            <li class="tab-item active" onclick="chageProductList('trend',this)">
+                pho bien
+            </li>
+            <li class="tab-item" onclick="chageProductList('new',this)">
+                moi nhat
+            </li>
+            <li class="tab-item" onclick="chageProductList('best-sell',this)">
+                ban chay
+            </li>
+
+        </ul>
+        <div class="animation">
+            <ul id="trend" class="product-list">
+                <li><img src="./img/ao-thun-size-lxlxxl-makita-2.jpg" alt=""></li>
+                <li><img src="./img/ao-thun-size-lxlxxl-makita-3.jpg" alt=""></li>
+                <li><img src="./img/ao-thun-size-lxlxxl-makita.jpg" alt=""></li>
+                <li><img src="./img/printyfly-men-fashion-collection-2023-4.webp" alt=""></li>
+
+
+
+                <li><img src="./img/printyfly-men-fashion-collection-2023-7.webp" alt=""></li>
+                <li><img src="./img/printyfly-men-fashion-collection-2023-2.webp" alt=""></li>
+            </ul>
+        </div>
+        <div id="new" class="animation">
+            <ul class="product-list">
+                <li><img src="./img/printyfly-men-fashion-collection-2023-2.webp" alt=""></li>
+                <li><img src="./img/printyfly-men-fashion-collection-2023-4.webp" alt=""></li>
+                <li><img src="./img/printyfly-men-fashion-collection-2023-7.webp" alt=""></li>
+                <li><img src="./img/ao-thun-size-lxlxxl-makita-3.jpg" alt=""></li>
+                <li><img src="./img/ao-thun-size-lxlxxl-makita-2.jpg" alt=""></li>
+                <li><img src="./img/ao-thun-size-lxlxxl-makita.jpg" alt=""></li>
+
+
+            </ul>
+        </div>
+        <div id="best-sell" class="animation">
+            <ul class="product-list">
+                <li><img src="./img/printyfly-men-fashion-collection-2023-2.webp" alt=""></li>
+                <li><img src="./img/printyfly-men-fashion-collection-2023-4.webp" alt=""></li>
+                <li><img src="./img/ao-thun-size-lxlxxl-makita-2.jpg" alt=""></li>
+                <li><img src="./img/ao-thun-size-lxlxxl-makita.jpg" alt=""></li>
+                <li><img src="./img/ao-thun-size-lxlxxl-makita-3.jpg" alt=""></li>
+
+                <li><img src="./img/printyfly-men-fashion-collection-2023-7.webp" alt=""></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
